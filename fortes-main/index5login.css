@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  .fundo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+  }
+  
+  img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .form-container {
+    text-align: center;
+
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input[type="texto"], input[type="senha"] {
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+  }
+  
+  .login {
+    background-color: #11538C;
+    color: white;
+  }
+  
+  .login:hover {
+    background-color: #033E8C;
+  }
+  
+  .cadastro{
+    background-color: #11538C;
+    color: white;
+  }
+  
+  .cadastro:hover {
+    background-color: #033E8C;
+  }
+  
+  .ajuda {
+    background-color: darkgray;
+    color: white;
+    margin-top: 15%;
+    width: 30%;
+  }
+  
+  .ajuda:hover {
+    background-color: grey;
+  }
+
+  a{
+    color:#F2F2F2;
+}

@@ -1,0 +1,129 @@
+*{padding: 0%;
+margin: 0%;
+
+
+}
+
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(FORTES.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: "KoHo", sans-serif;
+    
+}
+
+header{
+height: 300px;
+width: 100vw;
+display: flexbox;
+   height: 105px;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+
+   
+    font-size: 35px;
+    
+    color: #10458B;
+
+}
+#nav {
+   
+    text-align: center;
+   display: flex;
+   
+   justify-content: center;
+    width: 100%;
+    height: 70%;
+    border-radius: 20%;
+
+
+}
+ #bloco {
+    display:flex;
+justify-content: center;
+width: 70%;
+height: 90%;
+    background-image: url(Rectangle\ 17.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+ }
+
+
+h2{
+    
+
+    font-size: 30px;
+
+    text-align: center;
+    color: #10458B;
+
+}
+
+p {
+   padding: 70px;
+   height: 20px;
+   width: 110px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.text {
+
+    height: 20px;
+}
+
+
+
+
+.orgao > input{
+    border-radius: 25px;
+    
+    padding: 10px;
+}
+
+.categoria{
+   
+    
+    
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.categoria > select {
+    border-radius: 25px;
+   
+    padding: 10px;
+    cursor: pointer;
+}
+
+button{
+    text-align: right;
+   display: flex;
+   justify-content: right;
+    border-radius: 14px;
+    padding: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+
+footer {
+    display: flex;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+}
